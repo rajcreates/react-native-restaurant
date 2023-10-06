@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Pizza",
+        "description": "Delicious cheese pizza",
+        "price": 10.99,
+        "image": "/assets/delicious-cheese-pizza.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Burger",
+        "description": "Juicy grilled burger",
+        "price": 8.99,
+        "image": "/assets/juicy-grilled-burger.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Pasta",
+        "description": "Creamy Alfredo pasta",
+        "price": 9.99,
+        "image": "/assets/creamy-alfredo-pasta.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Salad",
+        "description": "Fresh garden salad",
+        "price": 7.99,
+        "image": "/assets/fresh-garden-salad.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Steak",
+        "description": "Tender grilled steak",
+        "price": 14.99,
+        "image": "/assets/tender-grilled-steak.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Sushi",
+        "description": "Assorted sushi platter",
+        "price": 19.99,
+        "image": "/assets/assorted-sushi-platter.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Chicken Wings",
+        "description": "Spicy chicken wings",
+        "price": 8.99,
+        "image": "/assets/spicy-chicken-wings.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Fish Tacos",
+        "description": "Crispy fish tacos",
+        "price": 9.99,
+        "image": "/assets/crispy-fish-tacos.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Veggie Wrap",
+        "description": "Healthy veggie wrap",
+        "price": 7.99,
+        "image": "/assets/healthy-veggie-wrap.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Fries",
+        "description": "Crispy french fries",
+        "price": 3.99,
+        "image": "/assets/crispy-french-fries.jpg"
+    }
+]
