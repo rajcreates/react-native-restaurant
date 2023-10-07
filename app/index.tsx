@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FlatList, SafeAreaView, StyleSheet } from 'react-native';
-import { TextInput, View } from '../components/Themed';
+import { Text, TextInput, View } from '../components/Themed';
 import { Picker } from '@react-native-picker/picker';
 import FoodItem from '../components/FoodItem';
 import foodData from '../data.json';
+import { router } from 'expo-router';
 
-const HomeScreen = () => {
+const HomeScreen = ({}) => {
     const [search, setSearch] = useState('');
     const [filter, setFilter] = useState({ specialty: 'All', rating: '0', vegetarian: 'All' });
 
@@ -20,6 +21,7 @@ const HomeScreen = () => {
 
     return (
         <SafeAreaView style={styles.container}>
+            <Text style={styles.title}>Your precious foods, One Click away!</Text>
             <TextInput 
                 value={search}
                 onChangeText={setSearch}
@@ -66,7 +68,10 @@ const HomeScreen = () => {
                 data={filteredData}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => (
-                    <FoodItem item={item} onPress={(id) => console.log('Navigate to Details with', id)} />
+                    <FoodItem
+                        item={item}
+                        onPress={(id) => router.push({pathname: `/item/${id}`, params: {id}})}
+                    />
                 )}
             />
         </SafeAreaView>
@@ -99,4 +104,8 @@ const styles = StyleSheet.create({
         flex: 1,
         marginHorizontal: 16,
     },
+    title: {
+        fontSize: 48,
+        fontWeight: 'bold'
+    }
 })
