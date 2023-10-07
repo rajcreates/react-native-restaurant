@@ -126,12 +126,12 @@
         "price": 7.99,
         "image": "https://cdn.pixabay.com/photo/2020/05/04/12/17/frankie-5128958_1280.jpg",
         "specialty": "Healthy",
-        "rating": 4.2,
+        "rating": 1,
         "vegetarian": true,
         "ingredients": ["Tortilla", "Lettuce", "Tomato", "Cucumber"],
         "reviews": [
-            {"user": "John Doe", "rating": 5, "comment": "Healthy choice!"},
-            {"user": "Jane Doe", "rating": 3, "comment": "A bit bland."}
+            {"user": "John Doe", "rating": 1, "comment": "Healthy choice!"},
+            {"user": "Jane Doe", "rating": 1, "comment": "A bit bland."}
         ]
     },
     {
@@ -141,12 +141,12 @@
         "price": 3.99,
         "image": "https://cdn.pixabay.com/photo/2020/06/23/14/33/french-fries-5332766_1280.jpg",
         "specialty": "American",
-        "rating": 4.3,
+        "rating": 2,
         "vegetarian": true,
         "ingredients": ["Potatoes", "Salt"],
         "reviews": [
-            {"user": "John Doe", "rating": 4, "comment": "Good but a bit salty."},
-            {"user": "Jane Doe", "rating": 5, "comment": "Love the crispiness!"}
+            {"user": "John Doe", "rating": 2, "comment": "Good but a bit salty."},
+            {"user": "Jane Doe", "rating": 3, "comment": "Love the crispiness!"}
         ]
     }
 ]
